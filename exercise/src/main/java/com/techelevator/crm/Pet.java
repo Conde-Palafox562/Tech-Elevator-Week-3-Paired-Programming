@@ -41,17 +41,19 @@ public class Pet {
  }
 //Method
     public String listVaccinations(){
-  String petVaccineList;
-        petVaccineList = new ArrayList<>();
-        for ( String V:vaccinations){
+  String result="";
+     //   petVaccineList = new ArrayList<>();
+        for ( String Vac:vaccinations){
            vaccinations.add("Rabies");
            vaccinations.add("Distemper");
            vaccinations.add("Parvo");
-          System.out.print(vaccinations+",");
+          result+=Vac+",";
        }
+        return result;
+
     }
 
-return
+
 
 
 }
