@@ -6,7 +6,7 @@ import java.util.List;
 public class Pet {
  private String name;
  private String species;
-    private List<String> vaccinations;
+ private List<String> vaccinations;
 //Getter & Setter
 
     public String getName() {
